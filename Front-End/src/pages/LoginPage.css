@@ -1,208 +1,218 @@
 .login-page {
     display: flex;
-    height: 100vh; /* Establece la altura de la página al 100% del viewport */
-    width: 100vw; /* Establece el ancho del contenedor al 100% del viewport */
-    justify-content: center; /* Centra los elementos horizontalmente */
-    align-items: center; /* Centra los elementos verticalmente */
+    height: 100vh; 
+    width: 100vw; 
+    justify-content: center; 
+    align-items: center; 
   }
   
   .square-left img {
-    position: absolute; /* Establece la posición absoluta para la imagen */
-    top: 35%; /* Centra verticalmente la imagen en el contenedor */
-    left: 30%; /* Centra horizontalmente la imagen en el contenedor */
-    transform: translate(-50%, -50%); /* Centra la imagen exactamente */
-    max-width: 60%; /* Establece el ancho máximo de la imagen al 80% del contenedor */
-    max-height: 60%; /* Establece la altura máxima de la imagen al 80% del contenedor */
+    position: absolute; 
+    top: 35%; 
+    left: 30%; 
+    transform: translate(-50%, -50%); 
+    max-width: 60%; 
+    max-height: 60%; 
   }
 
   .image-text {
-    position: absolute; /* Establece la posición absoluta para el texto */
-    left: 30%; /* Centra horizontalmente el texto */
+    position: absolute; 
+    left: 30%; 
     top: 55%;
-    transform: translateX(-50%); /* Centra el texto horizontalmente */
+    transform: translateX(-50%); 
     font-family: fredoka one;
     font-weight: bold;
-    font-size: 42px; /* Tamaño de fuente del texto */
-    color: #0B2A3F; /* Color del texto */
+    font-size: 42px; 
+    color: #0B2A3F; 
   }
 
   .vertical-line1 {
-    width: 0.5vh; /* Establece el ancho de la línea */
-    height: 88vh; /* Establece la altura de la línea */
+    width: 0.5vh; 
+    height: 88vh; 
     position: absolute;
-    top: 5%; /* Ajusta la posición superior para centrar verticalmente la línea en el viewport */
-    left: 58%; /* Centra la línea horizontalmente */
-    transform: translateX(-50%); /* Ajusta la posición de la línea para centrarla exactamente */
-    background-color: #81CD22; /* Establece el color de la línea */
+    top: 5%; 
+    left: 58%; 
+    transform: translateX(-50%); 
+    background-color: #81CD22; 
   }
   
   .vertical-line2 {
-    width: 0.5vh; /* Establece el ancho de la línea */
-    height: 88vh; /* Establece la altura de la línea */
+    width: 0.5vh; 
+    height: 88vh; 
     position: absolute;
-    top: 5%; /* Ajusta la posición superior para centrar verticalmente la línea en el viewport */
-    left: 2%; /* Centra la línea horizontalmente */
-    transform: translateX(-50%); /* Ajusta la posición de la línea para centrarla exactamente */
-    background-color: #81CD22; /* Establece el color de la línea */
+    top: 5%; 
+    left: 2%; 
+    transform: translateX(-50%); 
+    background-color: #81CD22; 
   }
 
   .vertical-line3 {
-    width: 56.25vw; /* Establece el ancho de la línea */
-    height: 0.5vh; /* Establece la altura de la línea */
+    width: 56.25vw; 
+    height: 0.5vh; 
     position: absolute;
-    top: 5%; /* Centra la línea verticalmente */
-    left: 1.8%; /* Ajusta la posición izquierda para centrar horizontalmente la línea en el viewport */
-    transform: translateY(-50%); /* Ajusta la posición de la línea para centrarla exactamente */
-    background-color: #81CD22; /* Establece el color de la línea */
+    top: 5%; 
+    left: 1.8%; 
+    transform: translateY(-50%); 
+    background-color: #81CD22; 
   }
   
   .vertical-line4 {
-    width: 56.25vw; /* Establece el ancho de la línea */
-    height: 0.5vh; /* Establece la altura de la línea */
+    width: 56.25vw; 
+    height: 0.5vh; 
     position: absolute;
-    top: 93%; /* Centra la línea verticalmente */
-    left: 1.8%; /* Ajusta la posición izquierda para centrar horizontalmente la línea en el viewport */
-    transform: translateY(-50%); /* Ajusta la posición de la línea para centrarla exactamente */
-    background-color: #81CD22; /* Establece el color de la línea */
+    top: 93%; 
+    left: 1.8%;
+    transform: translateY(-50%); 
+    background-color: #81CD22; 
   }
 
   .vertical-line5 {
-    width: 40vw; /* Establece el ancho de la línea */
-    height: 0.5vh; /* Establece la altura de la línea */
+    width: 40vw; 
+    height: 0.5vh; 
     position: absolute;
-    top: 5%; /* Centra la línea verticalmente */
-    left: 58%; /* Ajusta la posición izquierda para centrar horizontalmente la línea en el viewport */
-    transform: translateY(-50%); /* Ajusta la posición de la línea para centrarla exactamente */
-    background-color: #81CD22; /* Establece el color de la línea */
+    top: 5%; 
+    left: 58%; 
+    transform: translateY(-50%);
+    background-color: #81CD22; 
   }
   
     .vertical-line6 {
-    width: 0.5vh; /* Establece el ancho de la línea */
-    height: 88vh; /* Establece la altura de la línea */
+    width: 0.5vh;
+    height: 88vh;
     position: absolute;
-    top: 5%; /* Ajusta la posición superior para centrar verticalmente la línea en el viewport */
-    left: 97.9%; /* Centra la línea horizontalmente */
-    transform: translateX(-50%); /* Ajusta la posición de la línea para centrarla exactamente */
-    background-color: #81CD22; /* Establece el color de la línea */
+    top: 5%; 
+    left: 97.9%; 
+    transform: translateX(-50%); 
+    background-color: #81CD22; 
   }
 
     .vertical-line7 {
-    width: 40vw; /* Establece el ancho de la línea */
-    height: 0.5vh; /* Establece la altura de la línea */
+    width: 40vw; 
+    height: 0.5vh;
     position: absolute;
-    top: 93%; /* Centra la línea verticalmente */
-    left: 58%; /* Ajusta la posición izquierda para centrar horizontalmente la línea en el viewport */
-    transform: translateY(-50%); /* Ajusta la posición de la línea para centrarla exactamente */
-    background-color: #81CD22; /* Establece el color de la línea */
+    top: 93%; 
+    left: 58%;
+    transform: translateY(-50%);
+    background-color: #81CD22; 
   }
 
   .login-icon{
-    position: absolute; /* Establece la posición absoluta para la imagen */
-    top: 20%; /* Centra verticalmente la imagen en el contenedor */
-    left: 78%; /* Centra horizontalmente la imagen en el contenedor */
-    transform: translate(-50%, -50%); /* Centra la imagen exactamente */
-    max-width: 10%; /* Establece el ancho máximo de la imagen al 80% del contenedor */
-    max-height: 10%; /* Establece la altura máxima de la imagen al 80% del contenedor */
+    position: absolute; 
+    top: 20%; 
+    left: 78%;
+    transform: translate(-50%, -50%); 
+    max-width: 10%; 
+    max-height: 10%; 
   }
 
   .login-text {
-    position: absolute; /* Establece la posición absoluta para el texto */
-    left: 78%; /* Centra horizontalmente el texto */
+    position: absolute; 
+    left: 78%; 
     top: 18%;
-    transform: translateX(-50%); /* Centra el texto horizontalmente */
+    transform: translateX(-50%);
     font-family: fredoka one;
     font-weight: bold;
-    font-size: 36px; /* Tamaño de fuente del texto */
-    color: #0B2A3F; /* Color del texto */
+    font-size: 36px; 
+    color: #0B2A3F;
   }
 
   .email-text {
-    position: absolute; /* Establece la posición absoluta para el texto */
-    left: 78%; /* Centra horizontalmente el texto */
+    position: absolute; 
+    left: 78%; 
     top: 32%;
-    transform: translateX(-50%); /* Centra el texto horizontalmente */
+    transform: translateX(-50%); 
     font-family: kadwa;
     font-weight: bold;
-    font-size: 28px; /* Tamaño de fuente del texto */
-    color: #000000; /* Color del texto */
+    font-size: 28px; 
+    color: #000000; 
   }
 
   .email-input {
     position: absolute;
     top: 45%;
     left: 67%;
-    width: 300px; /* Ancho deseado del input */
-    height: 40px; /* Altura deseada del input */
-    background-color: white; /* Color de fondo blanco */
-    color: black; /* Color del texto */
-    font-size: 16px; /* Tamaño de fuente */
-    border: 1px solid black; /* Borde negro de 1px */
-    border-radius: 10px; /* Borde redondeado */
-    padding: 8px; /* Espaciado interno */
-    box-sizing: border-box; /* Incluir el borde en el tamaño total */
+    width: 300px;
+    height: 40px; 
+    background-color: white; 
+    color: black; 
+    font-size: 16px; 
+    border: 1px solid black; 
+    border-radius: 10px; 
+    padding: 8px; 
+    box-sizing: border-box; 
 }
 
 .password-text {
-  position: absolute; /* Establece la posición absoluta para el texto */
-  left: 78%; /* Centra horizontalmente el texto */
+  position: absolute; 
+  left: 78%; 
   top: 50%;
-  transform: translateX(-50%); /* Centra el texto horizontalmente */
+  transform: translateX(-50%); 
   font-family: kadwa;
   font-weight: bold;
-  font-size: 28px; /* Tamaño de fuente del texto */
-  color: #000000; /* Color del texto */
+  font-size: 28px; 
+  color: #000000; 
 }
 
 .password-input {
   position: absolute;
   top: 63%;
   left: 67%;
-  width: 300px; /* Ancho deseado del input */
-  height: 40px; /* Altura deseada del input */
-  background-color: white; /* Color de fondo blanco */
-  color: black; /* Color del texto */
-  font-size: 16px; /* Tamaño de fuente */
-  border: 1px solid black; /* Borde negro de 1px */
-  border-radius: 10px; /* Borde redondeado */
-  padding: 8px; /* Espaciado interno */
-  box-sizing: border-box; /* Incluir el borde en el tamaño total */
+  width: 300px; 
+  height: 40px; 
+  background-color: white; 
+  color: black; 
+  font-size: 16px; 
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 8px; 
+  box-sizing: border-box;
 }
 
 
 
 .user-icon {
-    position: absolute; /* Establece la posición absoluta para la imagen */
-    top: 48%; /* Centra verticalmente la imagen en el contenedor */
-    left: 65%; /* Centra horizontalmente la imagen en el contenedor */
-    transform: translate(-50%, -50%); /* Centra la imagen exactamente */
-    max-width: 4%; /* Establece el ancho máximo de la imagen al 80% del contenedor */
-    max-height: 5%; /* Establece la altura máxima de la imagen al 80% del contenedor */
+    position: absolute; 
+    top: 48%; 
+    left: 65%;
+    transform: translate(-50%, -50%); 
+    max-width: 4%;
+    max-height: 5%;
 }
 
 .key-icon {
-    position: absolute; /* Establece la posición absoluta para la imagen */
-    top: 66%; /* Centra verticalmente la imagen en el contenedor */
-    left: 65%; /* Centra horizontalmente la imagen en el contenedor */
-    transform: translate(-50%, -50%); /* Centra la imagen exactamente */
-    max-width: 5%; /* Establece el ancho máximo de la imagen al 80% del contenedor */
-    max-height: 5%; /* Establece la altura máxima de la imagen al 80% del contenedor */
+    position: absolute; 
+    top: 66%; 
+    left: 65%;
+    transform: translate(-50%, -50%); 
+    max-width: 5%; 
+    max-height: 5%; 
 }
 
 .login-button{
   position: absolute;
   left: 70%;
   top: 78%;
-  width: 15vw; /* Ancho deseado del botón */
-  height: 6vh; /* Altura deseada del botón */
+  width: 15vw; 
+  height: 6vh; 
   padding: 2px;
-  background-color: #0B2A3F; /* Color de fondo del botón (azul en este ejemplo) */
-  color: #FFFF; /* Color del texto del botón */
-  font-size: 24px; /* Tamaño de fuente del texto */
+  background-color: #0B2A3F; 
+  color: #FFFF; 
+  font-size: 24px; 
   font-family: inter;
-  border: none; /* Elimina el borde del botón */
-  border-radius: 5px; /* Borde redondeado */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
 }
 
+.login-button:hover {
+  background-color: #000000; 
+}
+
+.error-message{
+  color: #df0b0b;
+  position: absolute;
+  left: 63%;
+  top: 68%;
+}
 
   
