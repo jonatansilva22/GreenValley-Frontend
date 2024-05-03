@@ -8,7 +8,7 @@ function Sales() {
   return (
     <div>
       <h1 id='ventas'>Ventas</h1>
-      <p id='p-menu' onClick={() => navigate('/menu')}>Home</p>
+      <p id='p-menu' onClick={() => navigate('/menu')}>Menu</p>
     </div>
   );
 }

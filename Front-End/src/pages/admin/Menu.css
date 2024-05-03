@@ -103,3 +103,19 @@ h1{
     text-decoration: none;
     text-align: center;
   }
+
+  #p-login{
+  position: absolute;
+  top: 85%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #0b2a3f;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer; /* Cambia el cursor a una manita */
+  margin-left: 20px;
+  }
+
+  #p-login:hover {
+    color: #81cd22;
+  }

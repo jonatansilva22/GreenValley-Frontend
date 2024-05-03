@@ -4,6 +4,7 @@ import Logo from '/src/assets/img/Logo.png';
 import UserIcon from '/src/assets/img/user-solid.svg';
 import KeyIcon from '/src/assets/img/key-solid.svg';
 import LoginIcon from '/src/assets/img/right-to-bracket-solid.svg';
+import axios from 'axios'; // Importa Axios
 import { useNavigate } from 'react-router-dom';
 
 function LoginPage() {
@@ -12,15 +13,22 @@ function LoginPage() {
   const [errorMessage, setErrorMessage] = useState('');
   const navigate = useNavigate(); 
 
-  //Aqui se va reemplazar por el fetch (con axios) al backend
   const handleLogin = () => {
-    if (email !== 'correo@mail.com' || password !== 'pass') {
-      setErrorMessage('Credenciales incorrectas. Por favor, inténtalo de nuevo.');
-      setEmail('');
-      setPassword('');
-    } else {
-      navigate('/menu');
-    }
+    axios.post('http://localhost:3000/login', { // Envia una solicitud POST a la ruta '/login' en tu servidor
+      correo: email,
+      contraseña: password
+    })
+    .then(response => {
+      if (response.data.success) {
+        navigate('/menu'); // Si la respuesta del servidor indica éxito, redirige al usuario al menú
+      } else {
+        setErrorMessage(response.data.message); // Si hay un error, muestra el mensaje de error del servidor
+      }
+    })
+    .catch(error => {
+      console.error('Error al iniciar sesión:', error);
+      setErrorMessage('Credenciales incorrectas. Por favor, inténtalo de nuevo.'); // Muestra un mensaje de error genérico
+    });
   };
 
   return (

@@ -12,6 +12,9 @@ function Menu() {
     <div>
       <h1>Bienvenido!</h1>
       <div id="lista">
+      <div id="btnHome">
+          <p id='p-login' onClick={() => navigate('/')}>Cerrar sesión</p>
+        </div>
         <ul>
           <li id="li_inventario">
             <div id="enlace" onClick={() => navigate('/inventory')}>

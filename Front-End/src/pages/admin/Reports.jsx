@@ -8,7 +8,7 @@ function Reports() {
   return (
     <div>
       <h1 id='informes'>Informes</h1>
-      <p id='p-menu' onClick={() => navigate('/menu')}>Home</p>
+      <p id='p-menu' onClick={() => navigate('/menu')}>Menu</p>
     </div>
   );
 }
