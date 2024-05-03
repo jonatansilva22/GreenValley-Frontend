@@ -19,7 +19,7 @@ function LoginPage() {
       setEmail('');
       setPassword('');
     } else {
-      navigate('/admin-products');
+      navigate('/menu');
     }
   };
 
